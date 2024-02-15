@@ -1,7 +1,6 @@
 import requests
 
 #Toekn de acceso obtenido de https://estadisticasbcra.com/api/registracion
-
 token = 'tu_token_AQUI'
 
 headers = {
@@ -13,7 +12,7 @@ url = 'https://api.estadisticasbcra.com/usd'
 
 response = requests.get(url, headers=headers)
 
-# Verificar si la solicitud fue exitosa
+# Manejo de errores
 try:   
     data = response.json()
     print(data)
