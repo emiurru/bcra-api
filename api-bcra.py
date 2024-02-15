@@ -2,7 +2,7 @@ import requests
 
 #Toekn de acceso obtenido de https://estadisticasbcra.com/api/registracion
 
-token = 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mzk1Mzg3MjcsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJlbWlsaWFub0Bsb25nY3JlZHNhLmNvbS5hciJ9.UnQKBvKZa4ZAskJnOrR03guJ4sF_ETBLh_71a8hqvHL57LllmnyFyO_BXGjdzReSyjdlAKdjp8HfVL5W5qi8Qg'
+token = 'tu_token_AQUI'
 
 headers = {
     'Authorization': f'Bearer {token}'
