@@ -21,7 +21,7 @@ Link de registro: http://estadisticasbcra.com/api/registracion
 La API devuelve un array de objetos JSON, donde cada objeto contiene dos claves: d para la fecha (en formato MySQL YYYY-MM-DD) y v para el valor de la base monetaria en esa fecha.
 
 # Limitaciones
-Ten en cuenta que la API del BCRA permite un máximo de 100 consultas diarias por token. Asegurate de utilizar el servicio de manera responsable y de acuerdo con las políticas del BCRA.
+Tené en cuenta que la API del BCRA permite un máximo de 100 consultas diarias por token.
 
 # Base de datos disponibles
 + http://api.estadisticasbcra.com/milestones : eventos relevantes (presidencia, ministros de economía, presidentes del BCRA, cepo al dólar)
